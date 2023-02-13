@@ -22,7 +22,11 @@ Return true if the string is a valid US phone number; otherwise return false.
 
 Plan
 
-1.
+1. Create a Regex Pattern (in regex101.com) to verify a valid US number format has been added.
+2. Add US Number Formats we need to match into regex101 and start trying to match test strings with the Regular Expression.
+3. Match the first case to get started, and use that case to help the second with second case, and work your way down.
+4. Once you have matched all 6 cases in regex101, copy and paste into regex variable in function.
+5. Then using the built in TEST method which will return true or false test the regex against the string being passed into function.
 */
 
 function telephoneCheck(str) {
